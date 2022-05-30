@@ -1,0 +1,113 @@
+.section-contact {
+  background: #F4F8FB url(../../../assets/images/bg-top.svg) center top no-repeat;
+  background-size: contain;
+}
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 365px;
+  margin-top: 60px;
+}
+.map-wrapper .map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%)
+}
+.map-wrapper .contact-info {
+  height: 365px;
+  background-image: linear-gradient(127deg, #1576f4 0%, #2CB3FC 91%);
+  padding: 40px;
+  padding-top: 55px;
+  color: #fff;
+}
+.map-wrapper .contact-info .item {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.map-wrapper .contact-info .item i {
+  float: left;
+  font-size: 16px;
+  width: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.map-wrapper .contact-info .item span {
+  float: left;
+  width: calc(100% - 30px);
+  width: -webkit-calc(100% - 30px);
+  font-size: 14px;
+}
+.map-wrapper .contact-info .item span a {
+  color: #fff;
+}
+.map-wrapper .contact-info .social {
+  overflow: hidden;
+  margin-top: 5px;
+  text-align: center;
+}
+.map-wrapper .contact-info .social li {
+  display: inline;
+  font-size: 22px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.map-wrapper .contact-info .social li a {
+  color: #fff;
+}
+.map-wrapper .contact-info .item .txt a {
+  color: #fff;
+}
+
+.contact-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6F8BA4;
+  letter-spacing: 0.6px;
+  line-height: 26px;
+}
+.contact-text p {
+  margin-bottom: 28px;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid #eee;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: 30px;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+  border: 1px solid #4886FF;
+  padding-left: 30px;
+}
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+  padding: 20px;
+}
+
+
+@media (max-width: 991px) {
+  .map-wrapper {
+    height: auto;
+  }
+  .map-wrapper .map {
+    position: relative;
+    height: 365px;
+    margin-bottom: 30px;
+  }
+}

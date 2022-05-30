@@ -1,0 +1,62 @@
+.section-studies {
+  background: #F4F8FB url(../../../assets/images/bg-top.svg) center top no-repeat;
+  background-size: contain;
+}
+.studies {
+  padding-top: 30px;
+}
+.studies li {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.studies li:hover .count span {
+  background: #4886FF;
+  color: #fff;
+}
+.studies li .count {
+  float: left;
+  width: 68px;
+  min-height: 150px;
+  background: url(../../../assets/images/dots-bg.svg) center bottom no-repeat;
+}
+.studies li .count span {
+  display: block;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin: auto;
+  border: 1px solid #4886FF;
+  font-weight: 600;
+  font-size: 16px;
+  color: #4886FF;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.studies li .text {
+  float: left;
+  width: calc(100% - 68px);
+  width: -webkit-calc(100% - 68px);
+  padding-left: 20px;
+}
+.studies li .text .title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #3B566E;
+  margin-top: 5px;
+  margin-bottom: 24px !important;
+}
+.studies li .text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  letter-spacing: 1px;
+  line-height: 28px;
+}

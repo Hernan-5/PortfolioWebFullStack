@@ -1,0 +1,23 @@
+<section id="estudios" class="section-studies">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3"></div>
+      <div class="col-lg-8 col-md-12 align-self-center">
+        <ul class="studies">
+          <!-- <li data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s"> -->
+          <li  *ngFor="let educacion of educationList">
+            <div class="count">
+              <span>{{educacion.fin}}</span>
+            </div>
+            <div class="text">
+              <h5 class="title">{{educacion.escuela}}</h5>
+              <p>{{educacion.carrera}}</p>
+              <p>{{educacion.titulo}}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3"></div>
+    </div>
+  </div>
+</section>

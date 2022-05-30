@@ -1,0 +1,26 @@
+<section id="home" @fade class="top-area">
+  <div class="top-bg">
+    <img src="assets/images/bg-bottom.svg" alt="">
+  </div>
+
+  <div class="top-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 align-self-center">
+          <h1>{{dataPorfolio.nombre}} {{dataPorfolio.apellido}}</h1>
+          <p>{{dataPorfolio.sobre_mi}}</p>
+          <a class="btn-white-line" href="portfolio#contactame">CONTACTAME</a>
+        </div>
+        <div class="offset-lg-1 col-lg-5 col-md-12 align-self-center">
+          <div class="about">
+            <div class="container-fluid">
+              <div class="row">
+                <img [src]="dataPorfolio.img" class="img-fluid" alt="Hernán Pallarez">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

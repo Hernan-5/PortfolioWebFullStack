@@ -1,0 +1,26 @@
+  <header @fade class="header-area">
+  <div class="container" id="main" ng-app>
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="main-nav" ng-click="$event.preventDefault()">
+          <a href="" class="logo">
+            <img src="assets/images/logo-light.png" class="light-logo" alt="Hernán"/>
+            <img src="assets/images/logo-dark.png" class="dark-logo" alt="Hernán"/>
+          </a>
+          <ul class="nav">
+            <li><a href="portfolio#home" ng-click="active='home'">INICIO</a></li>
+            <li><a href="portfolio#quiensoy" ng-click="active='quiensoy'">QUIEN SOY</a></li>
+            <li><a href="portfolio#experiencia">EXPERIENCIA</a></li>
+            <li><a href="portfolio#estudios">ESTUDIOS</a></li>
+            <li><a href="portfolio#habilidades">HABILIDADES</a></li>
+            <li><a href="portfolio#proyectos">PROYECTOS</a></li>
+            <li><a href="/login" class="btn-nav-line">LOGIN</a></li>
+          </ul>
+          <a class="menu-trigger">
+            <span>Menu</span>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>

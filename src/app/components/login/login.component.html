@@ -1,0 +1,53 @@
+<div class="col-lg-12 order-1 order-lg-2">
+  <div class="row justify-content-md-center">
+    <div class="col-md-9">
+      <div class="multibox multibox-primary text-left mt-0">
+        <div class="box-content">
+          <h4 class="color-primary text-uppercase mb-4">Iniciar Sesión</h4>
+          <form [formGroup]="form" id="frmLogin" method="POST" (ngSubmit)="onLogin($event)">
+            <div class="form-row">
+              <div class="form-group col">
+                <label>Dirección de correo</label>
+                <input type="email" formControlName="email" [ngClass]="{'is-invalid':Email?.errors && Email?.touched,'is-valid':!Email?.errors && Email?.touched}" name="email" value="" class="form-control form-control-lg">
+                <div *ngIf="Email?.errors && Email?.touched">
+                  <small><p *ngIf="Email?.hasError('required')" class="text-danger">
+                      Este dato es obligatorio
+                  </p></small>
+                  <small><p *ngIf="Email?.hasError('email')" class="text-danger">
+                      La Dirección de Correo está mal escrita
+                  </p></small>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col">
+                <a class="text-right" href="#">(¿Olvidaste la contraseña?)</a>
+                <label>Contrseña</label>
+                <input type="password" formControlName="password" [ngClass]="{'is-invalid':Password?.errors && Password?.touched,'is-valid':!Password?.errors && Password?.touched}"name="password" class="form-control form-control-lg">
+                <div *ngIf="Password?.errors && Password?.touched">
+                  <small><p *ngIf="Password?.hasError('required')" class="text-danger">
+                      Este dato es obligatorio
+                  </p></small>
+                  <small><p *ngIf="Password?.hasError('minlength')" class="text-danger">
+                      La contraseña debe tener mas de 7 caracteres.
+                  </p></small>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-lg-6">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" name="rememberme" class="custom-control-input" id="rememberme">
+                  <label class="custom-control-label text-2" for="rememberme">Recordarme</label>
+                </div>
+              </div>
+              <div class="form-group col-lg-6">
+                <input type="submit" value="Iniciar Sesión" class="btn btn-primary btn-modern text-right" data-loading-text="Cargando...">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

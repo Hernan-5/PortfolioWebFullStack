@@ -1,0 +1,55 @@
+{
+  "nombres": "Daniel Hernán",
+  "apellido": "Pallarez",
+  "fecha_nacimiento": "06/05/1973",
+  "nacionalidad": "Argentino",
+  "mail": "hernanpallarez@gmail.com",
+  "sobre_mi": "Soy un Programador Full-Stack Jr. con experiencia comprobable apasionado por la tecnología. Me encantan los desafíos de los grandes proyectos. Podes conocerma un poco más navegando este portfolio.",
+  "ocupación": "Programador Full Stack Jr.",
+  "image_perfil": "assets/images/hernan.png",
+  "id_domicilio":"2",
+"estudios":[{
+  "escuela": "UTN",
+  "titulo": "Ingeniería",
+  "imagen": "https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
+  "carrera": "Sistemas Computacionales",
+  "puntaje": 100,
+  "inicio": "2019",
+  "fin": "2023"
+},
+  {"escuela": "Centro de Enseñanza Técnica Industrial",
+  "titulo": "Tecnologo",
+  "imagen": "https://media-exp1.licdn.com/dms/image/C560BAQEUHhax7RCj0A/company-logo_100_100/0/1584819716706?e=1637798400&v=beta&t=4UkXYz39PCtn4PqDYbwXZNWPSC3MgoHckfDfqQLBlHc",
+  "carrera": "Desarrollo de Software",
+  "puntaje": 82,
+  "inicio": "2014",
+  "fin": "2018"
+},
+{
+  "escuela": "Escuela Secundaria Técnica 14",
+  "titulo": "Técnico",
+  "imagen": "https://media-exp1.licdn.com/dms/image/C4E0BAQFhOoraRhsOSQ/company-logo_100_100/0/1590421269154?e=1637798400&v=beta&t=gyinTA0GPG1xIBDPj01L33mQHcdOdyMOdpoRHY640Pc",
+  "carrera": "Electronica, comunicacion y sistemas de control",
+  "puntaje": 70,
+  "inicio": "2012",
+  "fin": "2014"
+}],
+"trabajos":[{
+  "trabajo": "UNO",
+  "titulo": "Página web para estudio de abogados",
+  "imagen": "assets/images/projects/project1.jpg",
+  "descripcion": "Quisque euismod nec lacus sit amet maximus. Ut convallis sagittis lorem auctor malesuada. Morbi auctor tortor eu risus condimentum."
+},
+{
+  "trabajo": "DOS",
+  "titulo": "Back-End para plataforma de mantenimiento de clientes",
+  "imagen": "assets/images/projects/project2.jpg",
+  "descripcion": "Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. Sed eget sem vitae purus tempus dignissim."
+},
+{
+  "trabajo": "TRES",
+  "titulo": "Aplicación de E-Commerce",
+  "imagen": "assets/images/projects/project3.jpg",
+  "descripcion": "Cras imperdiet faucibus sem, a dignissim urna feugiat sed. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+}]
+}

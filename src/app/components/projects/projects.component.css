@@ -1,0 +1,52 @@
+.section-projects {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  background: #fff url(../../../assets/images/bg-top.svg) center top no-repeat;
+}
+
+.project-thumb {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.project-thumb .card-project {
+  overflow: hidden;
+  border-radius: 40px;
+  border-bottom-right-radius: 4px;
+  margin-bottom: 25px;
+  position: relative;
+  height: 200px;
+}
+.project-thumb .card-project img{
+  width: auto;
+  max-height: 350px;
+}
+
+.project-thumb h3 {
+  margin-bottom: 10px !important;
+}
+.project-thumb h3 a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #3B566E;
+  letter-spacing: 1px;
+  line-height: 26px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.project-thumb h3 a:hover {
+  color: #4886FF;
+}
+.project-thumb .text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6F8BA4;
+  letter-spacing: 0.88px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.project-thumb .btn-primary-line {
+  margin: auto;
+}
